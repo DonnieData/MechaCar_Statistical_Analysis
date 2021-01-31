@@ -16,7 +16,16 @@ The slope of the linear model can be considered zero since there is sufficient e
 
 ## T-Tests on Suspension Coils
 
+### Overall T-Test 
 p-value of 4.938 sufficient evidence showing PSI accross all manufacturing lots is not statistically differnt from the population mean.
+
+### Manufactuering Lot 1 T-Test 
+
+
+### Manufactuering Lot 2 T-Test 
+
+
+### Manufactuering Lot 3 T-Test 
 
 
 
