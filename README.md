@@ -3,15 +3,20 @@ Performing statistical analysis on vehicle data through using linear regression 
 
 
 ## Linear Regression to Predict MPG
+
+![linear](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_co.png)
 Based on the multiple linear regression model, three of the six variables provided for the model have coefficients indicating they provide a non-random amount of variance to mpg values in the dataset. These three variables are the intercept itself(mpg), vehicle length and ground clearance. 
 
+![summary](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_summary.png)
 The slope of the linear model should not be considered zero since there is sufficient evidence. With a p-value much smaller than the assumed significance level of 0.05%.
-
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear shows to predict mpg of MechaChar effectively, having a r-squared value of 0.71 meaning a 70% of all mpg predictions will be correct when using this linear model. 
 
 
 ### Summary Statistics on Suspension Coils 
+![lot](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_summary.png)
+![subset](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/subset_summary.png)
+
+
 > The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 Based on the summary statistics, Lot 3 exceeds the allowed variation threshold while Lot 1 and 2 are within the allowed margin. collectively the 3 lots are within the allowed variance, which is 62.
@@ -19,6 +24,10 @@ Based on the summary statistics, Lot 3 exceeds the allowed variation threshold w
 ## T-Tests on Suspension Coils
 
 #### Overall T-Test 
+![lot1]()
+![lot2]()
+![lot3]()
+
 p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is not statistically different from the population mean.
 
 #### Manufacturing Lot 1 T-Test 
