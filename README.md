@@ -12,9 +12,10 @@ Performing statistical analysis on vehicle data
 ## Linear Regression to Predict MPG
 Based on the multiple linear regression model, three of the six variables provided for the model have coefficients indicating they provide a non-random amount of variance to mpg values in the dataet. These three variables are the intercept itself(mpg), vehicle length and ground clearance. 
 
-The slope of the linear model should notbe considered zero since there is sufficient evidence of a significance. With a p-value much smaller than the asumed signicance level of 0.05%.
+The slope of the linear model should not be considered zero since there is sufficient evidence. With a p-value much smaller than the asumed signicance level of 0.05%.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The linear shows to predict mpg of MechaChar effectivly, having a r-squared value of 0.71 menaing a 70% of all mpg predictions will be correct when using this linear model. 
 
 ## T-Tests on Suspension Coils
 
