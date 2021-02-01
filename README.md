@@ -24,7 +24,7 @@ Based on the summary statistics, Lot 3 exceeds the allowed variation threshold w
 ## T-Tests on Suspension Coils
 
 #### Overall T-Test 
-![overall](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/overall_test.png)
+![overall](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/overall_test_t.png)
 
 p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is not statistically different from the population mean.
 
