@@ -1,10 +1,6 @@
 # MechaCar_Statistical_Analysis
 Performing statistical analysis on vehicle data through using linear regression models and t-tests on vehicle prdouction metrics. 
 
-### Null Hypothesis 
-
-### Alternative hypothesis 
-
 
 ### Signifincace level 
 0.05
