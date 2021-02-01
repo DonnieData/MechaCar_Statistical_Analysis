@@ -4,10 +4,10 @@ Performing statistical analysis on vehicle data through using linear regression 
 
 ## Linear Regression to Predict MPG
 
-![linear](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_co.png)
+![linear](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_co.png)<br>
 Based on the multiple linear regression model, three of the six variables provided for the model have coefficients indicating they provide a non-random amount of variance to mpg values in the dataset. These three variables are the intercept itself(mpg), vehicle length and ground clearance. 
 
-![summary](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_summary.png)
+![summary](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/multiple_regression_summary.png)<br>
 The slope of the linear model should not be considered zero since there is sufficient evidence. With a p-value much smaller than the assumed significance level of 0.05%.
 The linear shows to predict mpg of MechaChar effectively, having a r-squared value of 0.71 meaning a 70% of all mpg predictions will be correct when using this linear model. 
 
@@ -24,20 +24,19 @@ Based on the summary statistics, Lot 3 exceeds the allowed variation threshold w
 ## T-Tests on Suspension Coils
 
 #### Overall T-Test 
-![overall](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/overall_test_t.png)
-
+![overall](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/overall_test_t.png)<br>
 p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is not statistically different from the population mean.
 
 #### Manufacturing Lot 1 T-Test 
-![lot1](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_1_test.png)
+![lot1](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_1_test.png)<br>
 p-value shows significant evidence that lot 1 is statistically similar to the population mean of 1,500 PSI.
 
 #### Manufacturing Lot 2 T-Test 
-![lot2](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_2_test.png)
+![lot2](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_2_test.png)<br>
 p-value does not show significant evidence that lot 3 is statistically different from the population mean of 1,500 PSI.
 
 #### Manufacturing Lot 3 T-Test 
-![lot3](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_3_test.png)
+![lot3](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_3_test.png)<br>
 p-value shows significant evidence that lot 2 is statistically similar to the population mean of 1,500 PSI.
 
 ## Study Design: MechaCar vs Competition
