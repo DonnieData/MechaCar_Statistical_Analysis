@@ -15,17 +15,20 @@ The linear shows to predict mpg of MechaChar effectivly, having a r-squared valu
 
 ## T-Tests on Suspension Coils
 
-### Overall T-Test 
+#### Overall T-Test 
 p-value of 4.938 sufficient evidence showing PSI accross all manufacturing lots is not statistically differnt from the population mean.
 
-### Manufactuering Lot 1 T-Test 
+#### Manufactuering Lot 1 T-Test 
 p-value shows signigincatn evidence that lot 1 is statisitcally similiar to the population mean of 1,500 PSI.
 
-### Manufactuering Lot 2 T-Test 
+#### Manufactuering Lot 2 T-Test 
 p-value shows signigincatn evidence that lot 2 is statisitcally similiar to the population mean of 1,500 PSI.
 
-### Manufactuering Lot 3 T-Test 
+#### Manufactuering Lot 3 T-Test 
 p-value does not show signigincatn evidence that lot 3 is statisitcally different from te population mean of 1,500 PSI.
-no
+
+> The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+Based on the summary statistics, Lot 3 exceeds the allowed variation threshold while Lot 1 and 2 are within the allowed margin. collectivly the 3 lots are within the allowed variancce, which is 62.
+
 
 ## Study Design: MechaCar vs Competition
