@@ -24,20 +24,20 @@ Based on the summary statistics, Lot 3 exceeds the allowed variation threshold w
 ## T-Tests on Suspension Coils
 
 #### Overall T-Test 
-![overall]()
+![overall](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/overall_test.png)
 
 p-value of 4.938 sufficient evidence showing PSI across all manufacturing lots is not statistically different from the population mean.
 
 #### Manufacturing Lot 1 T-Test 
-![lot1]()
+![lot1](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_1_test.png)
 p-value shows significant evidence that lot 1 is statistically similar to the population mean of 1,500 PSI.
 
 #### Manufacturing Lot 2 T-Test 
-![lot2]()
+![lot2](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_2_test.png)
 p-value does not show significant evidence that lot 3 is statistically different from the population mean of 1,500 PSI.
 
 #### Manufacturing Lot 3 T-Test 
-![lot3]()
+![lot3](https://github.com/DonnieData/MechaCar_Statistical_Analysis/blob/main/img/lot_3_test.png)
 p-value shows significant evidence that lot 2 is statistically similar to the population mean of 1,500 PSI.
 
 ## Study Design: MechaCar vs Competition
