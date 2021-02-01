@@ -13,6 +13,12 @@ The slope of the linear model should not be considered zero since there is suffi
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear shows to predict mpg of MechaChar effectivly, having a r-squared value of 0.71 menaing a 70% of all mpg predictions will be correct when using this linear model. 
 
+
+### Summary Statistics on Suspension Coils 
+> The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+
+Based on the summary statistics, Lot 3 exceeds the allowed variation threshold while Lot 1 and 2 are within the allowed margin. collectivly the 3 lots are within the allowed variancce, which is 62.
+
 ## T-Tests on Suspension Coils
 
 #### Overall T-Test 
@@ -27,8 +33,20 @@ p-value shows signigincatn evidence that lot 2 is statisitcally similiar to the 
 #### Manufactuering Lot 3 T-Test 
 p-value does not show signigincatn evidence that lot 3 is statisitcally different from te population mean of 1,500 PSI.
 
-> The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
-Based on the summary statistics, Lot 3 exceeds the allowed variation threshold while Lot 1 and 2 are within the allowed margin. collectivly the 3 lots are within the allowed variancce, which is 62.
-
-
 ## Study Design: MechaCar vs Competition
+
+With the above statistical models and testing it would be possible to analyze production metrics of other vehicles and lots. 
+Having relivily similiar data would for vehicles would allow comparison between MechaCars production and its competition. 
+Such data shoudl include vehicle production and performance specifications.
+Many metrics could be tested to identify vehicle performance including miles per gallon, car weight, and other physical features that relate to performance. 
+
+### hypotheses 
+In order to properly test and build models a null and alternative hypthesis is needed:
+
+- Null Hypothesis 
+  
+
+- Alternate Hypothesis 
+
+### Testing 
+Similiar multiple linear regression models and t-tests could be used on the vehicle data with a signifincae level of 0.05%.
