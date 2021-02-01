@@ -41,12 +41,13 @@ Such data shoudl include vehicle production and performance specifications.
 Many metrics could be tested to identify vehicle performance including miles per gallon, car weight, and other physical features that relate to performance. 
 
 ### hypotheses 
-In order to properly test and build models a null and alternative hypthesis is needed:
+In order to properly test and build models a null and alternative hypthesis is needed. My hypothesis could be derived aroudn the question "Is a cars spoiler angle related to mpg?" 
 
 - Null Hypothesis 
+  It is likely that spolier angle has no relation to mpg and there will be not be suffincent evidence of a realtionship 
   
-
 - Alternate Hypothesis 
+  There will be sufficient evidence of a relationship to reject the null hypothesis.
 
 ### Testing 
 Similiar multiple linear regression models and t-tests could be used on the vehicle data with a signifincae level of 0.05%.
